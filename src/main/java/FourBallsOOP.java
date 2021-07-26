@@ -21,6 +21,7 @@ public class FourBallsOOP extends PApplet {
     }
 
     private class Ball {
+        
         private int x;
         private int y;
         private final int dx;
