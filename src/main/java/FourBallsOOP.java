@@ -9,6 +9,7 @@ public class FourBallsOOP extends PApplet {
     public static final int WIDTH = 640;
     public static final int OFFSET = HEIGHT / 5;
     private final List<Ball> ballsList = new ArrayList<>();
+    
     public static void main(String[] args) {
         PApplet.main("FourBallsOOP");
     }
@@ -25,6 +26,7 @@ public class FourBallsOOP extends PApplet {
         private final int dx;
         private final int dy;
         private final int radius;
+        
         public Ball(int xPos, int yPos, int dx, int dy, int radius, PApplet sketch) {
             this.x = xPos;
             this.y = yPos;
@@ -32,9 +34,11 @@ public class FourBallsOOP extends PApplet {
             this.dy = dy;
             this.radius = radius;
         }
+        
         private void draw() {
             ellipse(x, y, radius, radius);
         }
+        
         private void update() {
             x+=dx;
             y+=dy;
