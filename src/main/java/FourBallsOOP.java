@@ -8,7 +8,7 @@ public class FourBallsOOP extends PApplet {
     public static final int HEIGHT = 480;
     public static final int WIDTH = 640;
     public static final int OFFSET = HEIGHT / 5;
-    private final List<Ball> ballsList = new ArrayList<>();
+    private List<Ball> ballsList = new ArrayList<>();
     
     public static void main(String[] args) {
         PApplet.main("FourBallsOOP");
