@@ -26,18 +26,18 @@ public class FourBallsOOP extends PApplet {
         private int y;
         private final int dx;
         private final int dy;
-        private final int radius;
+        private final int diameter;
         
-        public Ball(int xPos, int yPos, int dx, int dy, int radius, PApplet sketch) {
+        public Ball(int xPos, int yPos, int dx, int dy, int diameter, PApplet sketch) {
             this.x = xPos;
             this.y = yPos;
             this.dx = dx;
             this.dy = dy;
-            this.radius = radius;
+            this.diameter = diameter;
         }
         
         private void draw() {
-            ellipse(x, y, radius, radius);
+            ellipse(x, y, diameter, diameter);
         }
         
         private void update() {
