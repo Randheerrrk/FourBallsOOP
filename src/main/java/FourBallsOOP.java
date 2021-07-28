@@ -24,9 +24,9 @@ public class FourBallsOOP extends PApplet {
         
         private int x;
         private int y;
-        private final int dx;
-        private final int dy;
-        private final int diameter;
+        private int dx;
+        private int dy;
+        private int diameter;
         
         public Ball(int xPos, int yPos, int dx, int dy, int diameter, PApplet sketch) {
             this.x = xPos;
